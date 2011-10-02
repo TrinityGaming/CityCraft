@@ -1,0 +1,74 @@
+ul
+{
+float:left;
+width:100%;
+padding:0;
+margin:0;
+list-style-type:none;
+}
+a
+{
+float:left;
+width:6em;
+text-decoration:none;
+color:white;
+background-color:maroon;
+padding:0.2em 0.6em;
+border-right:1px solid white;
+}
+a:hover {background-color:#ff3300;}
+li {display:inline;}
+body {background-image:url('img/mcbg.bmp');
+background-repeat:no-repeat;
+background-color:grey;} 
+div.img
+{
+  margin: 2px;
+  border: 1px solid #0000ff;
+  height: auto;
+  width: auto;
+  float: left;
+  text-align: center;
+}	
+div.img img
+{
+  display: inline;
+  margin: 3px;
+  border: 1px solid #ffffff;
+}
+div.img a:hover img {border: 1px solid #0000ff;}
+div.desc
+{
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 2px;
+}
+div.transbox
+{
+  width: 900px;
+  height: 400px;
+  margin: 30px 50px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity:0.6;
+  filter:alpha(opacity=60);}
+  div.center
+  {
+text-align:center;
+
+
+}
+div.right
+{
+text-align:center;
+}
+
+
+div.video
+{
+opacity:1.0;
+filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
